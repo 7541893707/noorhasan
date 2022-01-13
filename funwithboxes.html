@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title> funwithboxes</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        header {
+            background-color: blueviolet;
+            border: 1px solid black;
+            padding: 60px;
+            width: 180px;
+           height: 200px;
+           text-align:center;
+           font-size: 200%;
+           font-weight: bold;
+           /* margin: 10px; */
+        }
+
+  nav {
+            background-color: chartreuse;
+            border: 1px solid black;
+            padding: 60px;
+            width: 180px;
+           height: 200px;
+           text-align: center;
+           font-size: 200%;
+           font-weight: bold;
+        }
+
+        footer {
+            background-color: crimson;
+            border: 1px solid black;
+            padding: 60px;
+            width: 180px;
+           height: 200px; text-align: center;
+           font-size: 200%;
+           font-weight: bold;
+        } 
+        .a{  background-color: rgb(43, 226, 73);
+            border: 1px solid black;
+            padding: 60px;
+            width: 180px;
+            
+            max-width: 350px;
+           height: 200px;
+           text-align: center;
+           font-size: 200%;
+           font-weight: bold;
+
+        }
+        .b{
+            background-color: rgb(226, 43, 202);
+            border: 1px solid black;
+            padding: 60px;
+            width: 180px;
+           height: 200px;
+           text-align: center;
+           font-size: 200%;
+           font-weight: bold;
+
+        }
+        .c{  background-color: rgb(226, 116, 43);
+            border: 1px solid black;
+            padding: 60px;
+            width: 180px;
+           height: 200px;
+           text-align: center;
+           font-size: 200%;
+           font-weight: bold;
+
+
+        } 
+        .flexbox{ 
+            
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around; /* eske andar aur v achha achha content hai*/
+            height: 1200px;
+            align-items: center;
+            align-content: space-around; 
+        }
+        @media ( max-width:1080px ) {
+             header,nav,footer,.a,.b.c{
+             margin: 30px;
+             width: 180px;
+             height: 200px;
+            } 
+            .flexbox{
+                height: 600px;
+
+                align-items: flex-start;
+                flex-direction: column;
+                align-content: space-around;
+                
+
+            }
+            
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div class="flexbox">
+    <header style="order: 1;"> 1</header> <!-- default order is 0 esasde jyade hone par last me chala jata h*/-->
+    <nav> 2</nav>
+    <div  class="a">3</div>
+    <div class="b">4</div>
+    <div class="c">5</div>
+   <footer> 6</footer>
+</div>
+
+</body>
+
+</html>

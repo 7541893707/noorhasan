@@ -1,0 +1,40 @@
+.b{
+    text-align: center;
+    
+}
+.a{
+    font-size: 150%;
+    padding: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.287);
+    background-color: rgb(253, 250, 237);
+   margin: 35px;
+}
+textarea
+{
+     width: 100%;
+     height: 150px;
+     font-size: 100%;
+    }
+input[type="radio"]
+{
+    
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="date"]
+{   font-size: 80%;
+    width: 100%;
+    height: 35px;
+    background-color:white(248, 245, 233);
+}
+input[type="submit"]
+{   font-size: 100%;
+    font-style:italic;
+    width: 135px;
+    height: 50px;
+    background-color: rgb(137, 255, 137);
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    border-radius: 8px;
+}

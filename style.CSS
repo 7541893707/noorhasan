@@ -1,0 +1,56 @@
+/* @media screen and ( max-width:1080px ) { */
+    
+
+
+p{
+    color: blue;
+}
+h1{    /*type selector*/
+    color:darkmagenta;
+    font-weight: bold;
+    font-size:200%;
+    background-color: darkkhaki;
+}
+li{       /*element selector*/
+    color: darkorange;
+}
+.mid_size{   /*class selector*/
+    color: gold;
+}
+p i{         /*specific location per jane ke liye*/
+    color: magenta;
+}
+table tr th{   /*specific location per jane ke liye*/
+    font-size: 200%
+}
+a.a:hover{       /*class me uske location me aage jane ke liye '.' lagta h baki me nhi*/
+    color: orangered;
+    background-color: chartreuse;
+}
+a.b:hover{
+    color: springgreen;
+    background-color: chocolate;
+    text-decoration: none;
+}
+table{
+    background-color: black;
+    border:1px solid black;
+    border-collapse:collapse;
+    padding: 5px;   
+}
+table tr th{
+    background-color: rgb(255, 136, 0);
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 150%;
+}
+table tr td{
+    background-color: darkkhaki;
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
